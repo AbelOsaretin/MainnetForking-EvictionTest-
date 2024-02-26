@@ -1,13 +1,19 @@
-# Sample Hardhat Project
+# Web3Bridge Eviction Test
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+## Write a script that interact with at least two uniswap functions on Uniswap Router Contract.
+
+This project demonstrates a basic method of Forking the Ethereum Mainnet to interact with UniswapV2 Router.
 
 Try running some of the following tasks:
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
+yarn
+yarn hardhat node
+yarn hardhat run scripts/mainnet.ts
 ```
+
+# Interaction Screenshot
+
+(UniswapMainnetInteraction.png)
+[Image](UniswapMainnetInteraction.png)
+
